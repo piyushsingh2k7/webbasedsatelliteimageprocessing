@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background:#232323;
+	margin: 0;
+	padding:0px;
+	
+	
+	height:auto;
+}
+
+#tdiv
+{
+ width:1180px;
+ /*height:960px; */
+ height:auto;
+ 
+ margin:0 auto;
+ background-color:#232323;
+ align:center;
+}

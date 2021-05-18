@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+#menu-v li, #menu-v a {zoom:0;} /* Hacks for IE6, IE7 */
+#menu-v, #menu-v ul
+{   margin-top:0px;
+
+    width: 197px; /* Main Menu Item widths */
+   /* border-radius: 9px ; */
+    /*border: 5px solid #Fc3  ; */
+	   /* border-top:none; */
+    position:absolute; font-size:0;
+    margin-left:0; padding: 0px; display:block;
+	/* border:#000000 solid 1px; */
+    z-index:1000;
+	top:250px;
+	
+	
+	
+	/*border-bottom:#fc3 solid 1px;;
+    border-top:#fc3 solid 1px;; */
+}
+                
+/* Top level menu links style
+---------------------------------------*/
+
+#menu-v ul li.onhover
+{
+   /* background:#FF0000;  */
+    background-image:none;
+	border:none; 
+	
+}
+
+
+#menu-v li
+{
+   /* background: #Fff url(bg.gif) repeat-x 0 2px; */
+   /* list-style: none; */margin: 0px; padding: 0px;
+    /*border-top:#fc3 solid 1px;
+	border-bottom:#fc3 solid 1px;*/
+   border:none;
+   background-color:#FFbb00;
+   color:#000000;
+   
+	
+	
+}
+
+
+#menu-v li a
+{
+    font:  15px Arial ;
+    /* border-top: 1px solid #ccc; */
+	font-weight:500;
+    display: block;
+    /*overflow: auto; force hasLayout in IE7 */
+    /*color: #3A4698; */
+	color:#ffffff;
+    text-decoration: none;
+    line-height:35px;
+    /*padding-left:26px; */
+	border:none;    
+	text-align: center;
+    display: block;
+    margin: 0 auto;
+	padding:3px;
+	
+}
+
+#menu-v li a:hover
+{
+    font:  15px Arial ;
+    /* border-top: 1px solid #ccc; */
+	font-weight:500;
+    display: block;
+    /*overflow: auto; force hasLayout in IE7 */
+    /*color: #3A4698; */
+	color:#000000;
+    text-decoration: none;
+    line-height:35px;
+    /*padding-left:26px; */
+	border:none;    
+	text-align: center;
+    display: block;
+    margin: 0 auto;
+	padding:3px;
+	
+}
+#menu-v ul li a
+{
+    line-height:35px;
+	padding:3px;
+	background-color:#FFBB00; /* background og pop up menu */
+	color:#ffffff;
+	opacity:0.93;  
+	
+}
+
+#menu-v ul li a:hover
+{
+    line-height:35px;
+	padding:3px;
+	 /* background og pop up menu */
+	color: #000000;
+	 opacity:0.93;  
+	
+}
+                
+
+        
+/*Sub level menu items
+---------------------------------------*/
+#menu-v li ul
+{
+	position: absolute;
+	width: 200px; /*Sub Menu Items width */
+	/*visibility:hidden; */
+	height: 253px;
+	
+	opacity:0.93;
+}
+
+
+/*  foa menu */
+
+
